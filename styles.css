@@ -1,0 +1,97 @@
+html,
+body {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f4d04e;
+	color: #111;
+	font-family: 'Figtree', Helvetica, sans-serif;
+}
+
+.card {
+	padding-top: 24px;
+	background-color: #fff;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 384px;
+	height: 522px;
+	color: #111;
+	border-radius: 20px;
+	filter: drop-shadow(10px 10px);
+}
+
+@media (max-width: 375px) {
+	.card {
+		width: 327px;
+		height: 501px;
+	}
+}
+
+.post-image {
+	width: 336px;
+	height: auto;
+}
+
+@media (max-width: 375px) {
+	.post-image {
+		width: 279px;
+		height: auto;
+	}
+}
+
+.content {
+	width: 336px;
+	height: 194px;
+}
+
+@media (max-width: 375px) {
+	.content {
+		width: 279px;
+		height: 173px;
+	}
+}
+
+.tag {
+	padding: 4px 12px;
+	font-size: 14px;
+	font-weight: 800;
+	background-color: #f4d04e;
+	border-radius: 4px;
+}
+
+.date {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 800;
+	color: #111;
+}
+
+.description {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #6b6b6b;
+}
+.user {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+
+	gap: 12px;
+}
+
+.user h2 {
+	font-size: 14px;
+	font-weight: 800;
+}
